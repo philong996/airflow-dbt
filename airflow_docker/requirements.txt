@@ -1,0 +1,19 @@
+
+
+# external requirements
+click
+python-dotenv>=0.5.1
+pandas==1.3.5
+numba
+xlrd
+psycopg2-binary
+SQLAlchemy==1.4.9
+
+flask_bcrypt
+openpyxl
+Pillow
+google-api-python-client
+pika
+oauth2client
+
+astronomer-cosmos>=1.0.2
