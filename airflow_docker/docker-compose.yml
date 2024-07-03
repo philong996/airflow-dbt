@@ -62,9 +62,9 @@ x-airflow-common:
     AIRFLOW__EMAIL__EMAIL_BACKEND: airflow.utils.email.send_email_smtp
     AIRFLOW__SMTP__SMTP_HOST: smtp.gmail.com
     AIRFLOW__SMTP__SMTP_PORT: 587
-    AIRFLOW__SMTP__SMTP_USER: vcr.airflow.bot@gmail.com
-    AIRFLOW__SMTP__SMTP_MAIL_FROM: vcr.airflow.bot@gmail.com
-    AIRFLOW__SMTP__SMTP_PASSWORD: tjklckadieysuebb
+    AIRFLOW__SMTP__SMTP_USER: ${AIRFLOW__SMTP__SMTP_USER}
+    AIRFLOW__SMTP__SMTP_MAIL_FROM: ${AIRFLOW__SMTP__SMTP_MAIL_FROM}
+    AIRFLOW__SMTP__SMTP_PASSWORD: ${AIRFLOW__SMTP__SMTP_PASSWORD}
     # POSTGRES_USER: airflow
     # POSTGRES_PASSWORD: airflow
     # POSTGRES_DB: airflow
